@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-fira-code: "Fira Code";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+
+  /* Colors */
+  --color-gray-100: #d9d9d9;
+  --gray: #abb2bf;
+  --background: #282c33;
+  --primary: #c778dd;
+  --white: #fff;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-2xs: 4px;
+  --gap-xs: 5px;
+  --gap-sm: 8px;
+  --gap-md: 10px;
+  --gap-lg: 11px;
+  --gap-xl: 16px;
+  --gap-2xl: 32px;
+  --gap-3xl: 48px;
+
+  /* Paddings */
+  --padding-xs: 4px;
+  --padding-sm: 8px;
+  --padding-md: 16px;
+  --padding-lg: 32px;
+}

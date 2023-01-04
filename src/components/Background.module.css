@@ -1,0 +1,107 @@
+.frameChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.ellipseParent,
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  position: absolute;
+  top: 1636.36px;
+  left: 1223.14px;
+  width: 92.43px;
+  height: 103.91px;
+  flex-direction: column;
+}
+.frameContainer,
+.frameGroup {
+  top: 2051px;
+  left: 23.33px;
+}
+.frameContainer {
+  top: 285.51px;
+  left: 27.82px;
+  width: 75.38px;
+  height: 84.74px;
+}
+.backgroundChild,
+.backgroundInner,
+.backgroundItem {
+  position: absolute;
+  top: 1465.86px;
+  left: 0;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 139.09px;
+  height: 156.37px;
+}
+.backgroundInner,
+.backgroundItem {
+  top: 492.32px;
+  left: 1233.91px;
+}
+.backgroundInner {
+  top: 0;
+  left: 1221.34px;
+  width: 81.66px;
+  height: 91.81px;
+}
+.div,
+.projects {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.projects {
+  color: var(--white);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.line7Stroke {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.groupDiv {
+  position: absolute;
+  top: 2236.63px;
+  left: 235.12px;
+  width: 284.47px;
+  height: 42.37px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.background {
+  position: absolute;
+  top: 670px;
+  left: -3px;
+  width: 1373px;
+  height: 2279px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}
