@@ -1,0 +1,50 @@
+.withGreatPowerComesGreatE {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 0;
+}
+.icon {
+  position: relative;
+  width: 25.47px;
+  height: 20.7px;
+  flex-shrink: 0;
+}
+.wrapper {
+  margin: 0 !important;
+  top: -14px;
+  left: 11px;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-sm);
+  z-index: 1;
+}
+.container,
+.quote,
+.wrapper {
+  position: absolute;
+  background-color: var(--background);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  margin: 0 !important;
+  top: 80px;
+  right: 16.53px;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-sm);
+  z-index: 3;
+}
+.quote {
+  top: 658px;
+  left: 326px;
+  border: 1px solid var(--gray);
+  flex-direction: row;
+  padding: var(--padding-lg);
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}

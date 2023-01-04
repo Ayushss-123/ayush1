@@ -1,0 +1,21 @@
+.live {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.button {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}
