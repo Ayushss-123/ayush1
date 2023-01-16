@@ -1,0 +1,14 @@
+.frameChild {
+  position: absolute;
+  top: 172px;
+  left: 121px;
+  width: 445px;
+  height: 415px;
+}
+.ellipseParent {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 759px;
+  overflow: hidden;
+}
