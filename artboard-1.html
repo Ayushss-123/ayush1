@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./artboard-1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica Neue:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="artboard-1">
+      <button class="artboard-1-child" id="popuprectangleButton"></button>
+    </div>
+
+    <script>
+      var popuprectangleButton = document.getElementById("popuprectangleButton");
+      if (popuprectangleButton) {
+        popuprectangleButton.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
