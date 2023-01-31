@@ -1,0 +1,38 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.artboard-2-child {
+  cursor: pointer;
+  border: 1px solid var(--color-gray);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 254px;
+  left: 139px;
+  box-sizing: border-box;
+  width: 183px;
+  height: 214px;
+}
+.artboard-2 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 400px;
+  height: 100%;
+  opacity: 0;
+  max-width: 90%;
+  overflow: auto;
+}
+.artboard-2.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
