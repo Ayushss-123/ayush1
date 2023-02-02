@@ -1,0 +1,61 @@
+.name {
+  position: relative;
+}
+.nameWrapper {
+  flex: 1;
+  border: 1px solid var(--gray);
+  padding: var(--padding-sm);
+}
+.frameDiv,
+.instanceParent,
+.nameFrame,
+.nameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceParent {
+  width: 504.98px;
+  gap: var(--gap-lg);
+}
+.frameDiv,
+.nameFrame {
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 505px;
+  padding: var(--padding-sm);
+}
+.frameDiv {
+  height: 119px;
+  flex-shrink: 0;
+}
+.live {
+  position: relative;
+  font-weight: 500;
+}
+.button,
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  border: 1px solid var(--primary);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-md);
+  color: var(--white);
+}
+.contacts {
+  position: relative;
+  background-color: var(--background);
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}
