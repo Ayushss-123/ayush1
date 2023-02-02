@@ -1,0 +1,42 @@
+.supportMeHere {
+  position: relative;
+  font-weight: 500;
+}
+.cardIcon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.cardIcon,
+.elias {
+  position: relative;
+}
+.media,
+.mediaParent,
+.support {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.mediaParent,
+.support {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  color: var(--gray);
+}
+.support {
+  position: relative;
+  background-color: var(--background);
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 100%;
+  padding: var(--padding-md);
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}
