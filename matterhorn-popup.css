@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.video {
+  align-self: stretch;
+  position: relative;
+  height: 560px;
+  flex-shrink: 0;
+}
+.matterhorn-popup {
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+@media screen and (max-width: 650px) {
+  .video {
+    height: 50.625vw !important;
+  }
+  .matterhorn-popup {
+    padding: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+}
